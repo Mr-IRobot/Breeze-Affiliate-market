@@ -1,0 +1,505 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Breeze's - Afilliate Market</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="{% static 'home/assets/favicon.ico' %}" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="{% static 'home/css/styles.css' %}" rel="stylesheet" />
+
+
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+        
+        <link rel="stylesheet" href="{% static 'home/css/ionicons.min.css' %}">
+        <link rel="stylesheet" href="{% static 'home/css/style.css' %}">
+
+
+    </head>
+    <body>
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="#!" style="font-family:sans-serif; font-size:xx-large;">Breeze's Afilliate</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <!-- <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#!">About</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#!">All Products</a></li>
+                                <li><hr class="dropdown-divider" /></li>
+                                <li><a class="dropdown-item" href="#!">Popular Items</a></li>
+                                <li><a class="dropdown-item" href="#!">New Arrivals</a></li>
+                            </ul>
+                        </li>
+                    </ul> -->
+                    <form style="text-align:right; padding-left:600px;" class="d-flex">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+                            <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#!">About</a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#!">All Products</a></li>
+                                    <li><hr class="dropdown-divider" /></li>
+                                    <li><a class="dropdown-item" href="#!">Popular Items</a></li>
+                                    <li><a class="dropdown-item" href="#!">New Arrivals</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <!-- <button class="btn btn-outline-dark" type="submit">
+                            
+                            <i class="bi-cart-fill me-1"></i>
+                            Cart
+                            <span class="badge bg-dark text-white ms-1 rounded-pill">0</span>
+                        </button> -->
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <!-- Header-->
+        <!-- <header class="bg-dark py-5">
+            <div class="container px-4 px-lg-5 my-5">
+                <div class="text-center text-white">
+                    <h1 class="display-4 fw-bolder">Shop in style</h1>
+                    <p class="lead fw-normal text-white-50 mb-0">With this shop hompeage template</p>
+                </div>
+            </div>
+        </header> -->
+        <!-- <header style="width:auto; height: 200; background-image: url(' {% static 'home/assets/header 1.jpg' %} '); "> -->
+        <header>
+
+            <div >
+                <img style="max-width:100%; height:auto;" src="{% static 'home/assets/header 2.jpg' %}" alt="Norway" >
+                <div class="text-block">
+                  <h4 style="font-style:normal; font-size:xx-large; font-family:fantasy;">SHOPPING BEAUTY</h4>
+                  <p>For all skin care products...</p>
+                </div>
+              </div>
+
+            <style>
+                
+
+                    /* Bottom right text */
+                .text-block {
+                    position: absolute;
+                    align-items: center;
+                    top: 130px;
+                    right: 400px;
+                    text-align:center;
+                    background-color: rgb(54, 49, 49);
+                    width:500px;
+                    height: 150px;
+                    color: white;
+                    padding-left: 20px;
+                    padding-right: 20px;
+                    padding-top: 40px;
+                    /* padding-bottom: 20px; */
+                }
+            </style>
+            
+            <!-- <div >
+                <div style="color: red; text-align: center; " >
+                    <h1 >Shop in style</h1>
+                    <p >With this shop hompeage template</p>
+                    <img class="img-fluid" src="{% static 'home/assets/header 2.jpg' %}" alt="..."/>
+                </div>
+            </div> -->
+            
+        </header>
+        <!-- Section-->
+        <section class="py-5">
+            <div class="container px-4 px-lg-5 mt-5">
+                <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top" src="{% static 'home/assets/sell 1.jpg' %}" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Cube Ice Face Roller Reusable Beauty Face Ice Roller for Face Skin Care Gua Sha Massage Brightening Facial Ice Roller Mold for Beauty Facial</h5>
+                                    <!-- Product price-->
+                                    $12.00 - $9.00
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="https://amzn.to/3d3mgZ9">View more</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Sale badge-->
+                            <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
+                            <!-- Product image-->
+                            <img class="card-img-top" src="{% static 'home/assets/sell 2.jpg' %}" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Skin Tag Remover - Painless Skin Tag Removal Kit for Small (2mm) to Medium (7mm) Skin Tags -Safe for Most Body Parts – Set Includes 40 Micro Bands, 10 Cleansing Wipes and 36 Repair Patches</h5>
+                                    <!-- Product reviews-->
+                                    <div class="d-flex justify-content-center small text-warning mb-2">
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                    </div>
+                                    <!-- Product price-->
+                                    <span class="text-muted text-decoration-line-through">$18.00</span>
+                                    $9.00
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="https://amzn.to/3SzZZm7">View more</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Sale badge-->
+                            <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
+                            <!-- Product image-->
+                            <img class="card-img-top" src="{% static 'home/assets/sell 3.jpg' %}" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Neutrogena Makeup Remover Cleansing Face Wipes, Daily Cleansing Facial Towelettes to Remove Waterproof Makeup and Mascara, Alcohol-Free, Value Twin Pack, 25 Count, 2 Pack</h5>
+                                    <!-- Product price-->
+                                    <span class="text-muted text-decoration-line-through">$9.80</span>
+                                    $8.99
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="https://amzn.to/3zxvsMY">View more</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top" src="{% static 'home/assets/sell 4.jpg' %}" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">CeraVe AM Facial Moisturizing Lotion SPF 30 | Oil-Free Face Moisturizer with Sunscreen | Non-Comedogenic | 3 Ounce</h5>
+                                    <!-- Product reviews-->
+                                    <div class="d-flex justify-content-center small text-warning mb-2">
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                    </div>
+                                    <!-- Product price-->
+                                    $12.49
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="https://amzn.to/3w15aSr">View more</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Sale badge-->
+                            <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
+                            <!-- Product image-->
+                            <img class="card-img-top" src="{% static 'home/assets/sell 5.jpg' %}" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">CeraVe Moisturizing Cream | Body and Face Moisturizer for Dry Skin | Body Cream with Hyaluronic Acid and Ceramides | Normal | Fragrance Free | 19 Oz | Packages May Vary</h5>
+                                    <!-- Product price-->
+                                    <span class="text-muted text-decoration-line-through">$26.00</span>
+                                    $17.78
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="https://amzn.to/3SlCEnU">View more</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top" src="{% static 'home/assets/sell 6.jpg' %}" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">TruSkin Vitamin C Serum for Face, Anti Aging Serum with Hyaluronic Acid, Vitamin E, Organic Aloe Vera and Jojoba Oil, Hydrating & Brightening Serum for Dark Spots, Fine Lines and Wrinkles, 1 fl oz</h5>
+                                    <!-- Product price-->
+                                    $19.99 - $280.00
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="https://amzn.to/3vCEIho">View more</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Sale badge-->
+                            <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
+                            <!-- Product image-->
+                            <img class="card-img-top" src="{% static 'home/assets/sell 7.jpg' %}" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">CeraVe Eye Repair Cream | Under Eye Cream for Dark Circles and Puffiness | Suitable for Delicate Skin Under Eye Area | 0.5 Ounce</h5>
+                                    <!-- Product reviews-->
+                                    <div class="d-flex justify-content-center small text-warning mb-2">
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                    </div>
+                                    <!-- Product price-->
+                                    <span class="text-muted text-decoration-line-through">$20.00</span>
+                                    $13.49
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="https://amzn.to/3oYlsXW">View more</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top" src="{% static 'home/assets/sell 8.jpg' %}" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">CeraVe Retinol Serum for Post-Acne Marks and Skin Texture | Pore Refining, Resurfacing, Brightening Facial Serum with Retinol | Fragrance Free & Non-Comedogenic| 1 Oz</h5>
+                                    <!-- Product reviews-->
+                                    <div class="d-flex justify-content-center small text-warning mb-2">
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                    </div>
+                                    <!-- Product price-->
+                                    $16.40
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="https://amzn.to/3d6PMwT">View more</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+        <footer class="footer-05">
+			<div class="container">
+				<div class="row border-bottom mb-5 pb-4 align-items-center">
+					<div class="col-md-6 mb-md-0 mb-4">
+						<h2 class="logo"><a href="#">Breeze Concept <span>Afilliate</span></a></h2>
+					</div>
+					<div class="col-md-6 mb-md-0 mb-4 text-md-right">
+						<ul class="ftco-footer-social p-0 mb-0">
+              <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><span class="ion-logo-twitter"></span></a></li>
+              <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><span class="ion-logo-facebook"></span></a></li>
+              <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Instagram"><span class="ion-logo-instagram"></span></a></li>
+            </ul>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-6 col-lg-3 mb-md-0 mb-4">
+						<h2 class="footer-heading">Breeze's Afilliate</h2>
+						<div class="block-23 mb-3">
+              <ul>
+                <li><span class="icon ion-ios-pin"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
+                <li><a href="#"><span class="icon ion-ios-call"></span><span class="text">+234 903 280 6278</span></a></li>
+                <li><a href="#"><span class="icon ion-ios-send"></span><span class="text">breezeconcept1@gmail.com</span></a></li>
+              </ul>
+            </div>
+            <form action="#" class="subscribe-form">
+              <div class="form-group d-flex">
+                <input type="text" class="form-control rounded-left" placeholder="Enter email address">
+                <button type="submit" class="form-control submit rounded-right"><span class="sr-only">Submit</span><i class="ion-ios-send"></i></button>
+              </div>
+            </form>
+					</div>
+					<div class="col-md-6 col-lg-3 mb-md-0 mb-4">
+							<h2 class="footer-heading">Latest News</h2>
+							<div class="block-21 mb-4 d-flex">
+	              <a class="img mr-4 rounded" style="background-image: url({% static 'home/assets/images/image_1.jpg' %});"></a>
+	              <div class="text">
+	                <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about</a></h3>
+	                <div class="meta">
+	                  <div><a href="#"><span class="icon-calendar"></span> Oct. 16, 2019</a></div>
+	                  <div><a href="#"><span class="icon-person"></span> Admin</a></div>
+	                  <div><a href="#"><span class="icon-chat"></span> 19</a></div>
+	                </div>
+	              </div>
+	            </div>
+	            <div class="block-21 mb-4 d-flex">
+	              <a class="img mr-4 rounded" style="background-image: url({% static 'home/assets/images/image_2.jpg' %});"></a>
+	              <div class="text">
+	                <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about</a></h3>
+	                <div class="meta">
+	                  <div><a href="#"><span class="icon-calendar"></span> Oct. 16, 2019</a></div>
+	                  <div><a href="#"><span class="icon-person"></span> Admin</a></div>
+	                  <div><a href="#"><span class="icon-chat"></span> 19</a></div>
+	                </div>
+	              </div>
+	            </div>
+					</div><br/><br/>
+					<div class="col-md-6 col-lg-3 mb-md-0 mb-4">
+						<h2 class="footer-heading">Best Sellers</h2>
+						<div class="row">
+							<div class="col-md-12">
+								<div class="featured">
+                                    <script type="text/javascript">
+                                        amzn_assoc_placement = "adunit0";
+                                        amzn_assoc_search_bar = "true";
+                                        amzn_assoc_tracking_id = "breezeconce05-20";
+                                        amzn_assoc_search_bar_position = "bottom";
+                                        amzn_assoc_ad_mode = "search";
+                                        amzn_assoc_ad_type = "smart";
+                                        amzn_assoc_marketplace = "amazon";
+                                        amzn_assoc_region = "US";
+                                        amzn_assoc_title = "Shop Related Products";
+                                        amzn_assoc_default_search_phrase = "skin care";
+                                        amzn_assoc_default_category = "All";
+                                        amzn_assoc_linkid = "72fce6eb86222cf6ff8dfa2d8b304248";
+                                    </script>
+                                    <script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US">
+
+                                    </script>
+									<!-- <a href="#" class="img rounded mb-3" style="background-image: url({% static 'assets/images/prod-1.jpg' %});"></a> -->
+									<div class="text">
+										<h3><a href="#">The best skin care products for you</a></h3>
+										<p class="rate">
+											<a href="#"><span class="ion-ios-star"></span></a>
+											<a href="#"><span class="ion-ios-star"></span></a>
+											<a href="#"><span class="ion-ios-star"></span></a>
+											<a href="#"><span class="ion-ios-star"></span></a>
+											<a href="#"><span class="ion-ios-star"></span></a>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-3 mb-md-0 mb-4">
+                        
+						<h2 class="footer-heading">Beauty Care</h2>
+						<div class="block-24">
+							<div class="row no-gutters">
+                                <script type="text/javascript">
+                                    amzn_assoc_placement = "adunit0";
+                                    amzn_assoc_search_bar = "true";
+                                    amzn_assoc_tracking_id = "breezeconce05-20";
+                                    amzn_assoc_search_bar_position = "bottom";
+                                    amzn_assoc_ad_mode = "search";
+                                    amzn_assoc_ad_type = "smart";
+                                    amzn_assoc_marketplace = "amazon";
+                                    amzn_assoc_region = "US";
+                                    amzn_assoc_title = "Shop Related Products";
+                                    amzn_assoc_default_search_phrase = "beauty care";
+                                    amzn_assoc_default_category = "All";
+                                    amzn_assoc_linkid = "72fce6eb86222cf6ff8dfa2d8b304248";
+                                    </script>
+                                    <script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>
+                                
+								<!-- <div class="col-4 col-md-4">
+                                    
+									<a href="#" class="img" style="background-image: url({% static 'assets/images/insta-1.jpg' %});"></a>
+								</div>
+								<div class="col-4 col-md-4">
+									<a href="#" class="img" style="background-image: url({% static 'assets/images/insta-2.jpg' %});"></a>
+								</div>
+								<div class="col-4 col-md-4">
+									<a href="#" class="img" style="background-image: url({% static 'assets/images/insta-3.jpg' %});"></a>
+								</div>
+								<div class="col-4 col-md-4">
+									<a href="#" class="img" style="background-image: url({% static 'assets/images/insta-4.jpg' %});"></a>
+								</div>
+								<div class="col-4 col-md-4">
+									<a href="#" class="img" style="background-image: url({% static 'assets/images/insta-5.jpg' %});"></a>
+								</div>
+								<div class="col-4 col-md-4">
+									<a href="#" class="img" style="background-image: url({% static 'assets/images/insta-6.jpg' %});"></a>
+								</div> -->
+							</div>
+						</div> 
+					</div> 
+				</div> 
+				<div class="row mt-5 pt-4 border-top">
+          <div class="col-md-6 col-lg-8">
+            <p class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+  Copyright @ Breeze Concept &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved.</p>
+          </div>
+          <div class="col-md-6 col-lg-4 text-md-right">
+          	<p class="copyright">This template is made with <i class="ion-ios-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Breeze's Team of Developers</a>
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+          </div>
+        </div>
+			</div>
+		</footer>
+
+		
+
+    <script src="{% static 'home/js/jquery.min.js' %}"></script>
+    <script src="{% static 'home/js/popper.js' %}"></script>
+    <script src="{% static 'home/js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'home/js/main.js' %}"></script>
+
+
+
+
+
+
+
+
+
+        <!-- Footer-->
+        <!-- <footer class="py-5 bg-dark">
+            <div class="container"><p class="m-0 text-center text-white">Copyright &copy; @Cragg's Afilliate 2022</p></div>
+        </footer> -->
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="{% static 'home/js/scripts.js' %}"></script>
+    </body>
+</html>
